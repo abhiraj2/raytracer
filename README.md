@@ -207,5 +207,5 @@ rec.N.normalize();
 It is the process of reducing the jaggedness around the edges of a color change, mostly done by averaging a bunch of samples inside a pixel and by putting the color of pixel equal to the average.
 For our general purpose raytracers stratification is not critical. We make use of a random number generator to average out the samples, with the number of samples per pixel as 100(say).
 
-*Insert Images here of before and after AA*
-
+<img src="https://i.ibb.co/qmHScPj/without-AA.png">
+<img src="https://i.ibb.co/TTVzdBS/with-AA.png">
